@@ -1,0 +1,53 @@
+{
+  "name": "css-color-to-rgb",
+  "private": false,
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "honeymaro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honeymaro/css-color-to-rgb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/honeymaro/css-color-to-rgb/issues"
+  },
+  "homepage": "https://github.com/honeymaro/css-color-to-rgb",
+  "description": "A utility library to convert CSS color values into an RGB array and hex code. Supports CSS color names, hex values, RGB, HSL, CSS variables and modern CSS color functions such as color-mix() and color().",
+  "keywords": [
+    "css",
+    "color",
+    "rgb",
+    "hex",
+    "hsl",
+    "css-variables",
+    "color-functions",
+    "color-mix",
+    "color-convert",
+    "color-parse",
+    "color-rgb",
+    "color-hex",
+    "color-hsl"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json && vite build"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.3",
+    "vite": "^6.1.1",
+    "vite-plugin-dts": "^4.5.3"
+  }
+}
