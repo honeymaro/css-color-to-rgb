@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/honeymaro/css-color-to-rgb/issues"
   },
-  "homepage": "https://github.com/honeymaro/css-color-to-rgb",
+  "homepage": "https://honeymaro.github.io/css-color-to-rgb",
   "description": "A utility library to convert CSS color values into an RGB array and hex code. Supports CSS color names, hex values, RGB, HSL, CSS variables and modern CSS color functions such as color-mix() and color().",
   "keywords": [
     "css",
